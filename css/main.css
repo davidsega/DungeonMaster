@@ -1,0 +1,47 @@
+#navegacion {
+  float:left;
+}
+
+#equipcarac {
+  float:left;
+}
+#start{
+  width: 100%;
+}
+h1{
+    text-align: center;
+    display: inline-block;
+
+}
+.menu{
+  position: relative;
+}
+
+#newGame{
+  font-family:"Goudy old style";
+  font-weight: initial;
+  font-size: 300%;
+  right: 24.60%;
+  top:16.5%;
+  position: absolute;
+  color: grey;
+}
+#newGame:hover {
+  cursor:pointer; cursor: hand;
+  color: white;
+}
+
+#continueGame:hover {
+  cursor:pointer; cursor: hand;
+  color: white;
+}
+#continueGame{
+font-family:"Goudy old style";
+font-weight: initial;
+    font-size: 300%;
+  right: 19.6%;
+  top:25%;
+  color: grey;
+
+    position: absolute;
+}
