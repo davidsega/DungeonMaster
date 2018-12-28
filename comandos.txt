@@ -1,0 +1,8 @@
+Basico para subir archivos
+git add <file>		->(Añadir archivo) -> Que archivo quiero subir
+git commit 		-> Es como si guardaras en la rama (pero en local)
+git push -u origin <rama que quiero subir> -> Subimos a remoto la rama en concreto que hacemos push
+git checkout <rama> 			-> cambio de rama
+git checkout -b <rama>			-> Creamos nueva rama en local
+git merge <rama con la que fusiono la rama en la que estoy>
+En caso de que haya alguna incidencia añadir -f (el programa se pone farruko)

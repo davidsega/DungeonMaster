@@ -1,0 +1,12 @@
+TO DO:
+Interfaz Grafica
+Desplazamiento
+Sistema de combate - Enemigo
+Interaccion usuario
+Guardar Partida -Cargar Partida
+Respawn muerte jugador
+Minimapa
+Cambio de Nivel
+Interaccion interfaz
+Bonito
+
