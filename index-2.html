@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dungeon</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dungeon Master AJAX Game" />
+    <meta name="keywords" content="dungeon, ajax, javascript, css" />
+    <meta name="author" content="Daniel Amo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="all" />
+    <script src="js/juego.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <section class=game>
+      <!-- <img class="bkgImg" src="../media/images/fondo.jpg" alt=""> -->
+      <section class="navegation">
+        <canvas class="visor"></canvas>
+      </section>
+
+      <section class="controls">
+        <a href="#" class="movesquerra"><img src="media/images/left.png" alt="left" width="75%" height="75%"></a>
+        <a href="#" class="movdreta"><img src="media/images/right.jpg" alt="right" width="75%" height="75%"></a>
+        <a href="#" class="movendavant"><img src="media/images/up.png" alt="up" width="75%" height="75%"></a>
+        <a href="#" class="movendarrere"><img src="media/images/down.jpg" alt="down" width="75%" height="75%"></a>
+        <button class="action" type="button" name="button">ACTION</button>
+        <button class="scape" type="button" name="button">SCAPE</button>
+      </section>
+
+      <section class="map">
+        <canvas class="miniMap"></canvas>
+      </section>
+
+      <section class="equipment">
+        <div class="head"></div>
+        <div class="rightArm"></div>
+        <div class="leftArm"></div>
+        <div class="body"></div>
+        <div class="foot"></div>
+      </section>
+
+      <section class="objects">
+        <div class="object1"></div>
+        <div class="object2"></div>
+        <div class="object3"></div>
+        <div class="object4"></div>
+        <div class="object5"></div>
+      </section>
+
+
+      <section class="character">
+        <img src="media/images/archer.jpg" alt="character" width="100%" height="100%">
+      </section>
+
+      <section class="infoStats">
+        <h2>Equipo & Características</h2>
+        <p>Nombre/Sexo: <span></span></p>
+        <p>Vida: <span></span></p>
+        <p>Nivel: <span></span></p>
+        <p>Ataque: <span></span></p>
+        <p>Defensa: <span></span></p>
+      </section>
+
+      <section class="potions">
+        <div class="pocion1"></div>
+        <div class="pocion2"></div>
+        <div class="pocion3"></div>
+      </section>
+
+      <!-- <button class="back" type="button" name="button">BACK</button> -->
+    </section>
+
+  </body>
+</html>

@@ -11,8 +11,8 @@
 h1{
     text-align: center;
     display: inline-block;
-
 }
+
 .menu{
   position: relative;
 }
@@ -42,6 +42,190 @@ font-weight: initial;
   right: 19.6%;
   top:25%;
   color: grey;
+  position: absolute;
+}
 
-    position: absolute;
+h2{
+  text-align: center;
+  font-size: 100%;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+
+
+.game{
+  width: 100%;
+  background-image: url(../media/images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 200px 73% 150px 50px;
+  grid-template-rows: 200px 300px 50px 100px;
+  padding: 10px 10px 10px 10px;
+  grid-gap: 5px;
+}
+
+.map{
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-row-start: 1;
+}
+
+.navegation{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-row-start: 1;
+}
+
+.character{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 5;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  grid-row-start: 1;
+}
+
+.equipment{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-row-start: 2;
+}
+
+.infoStats{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 5;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-row-start: 2;
+}
+
+.objects{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-row-start: 4;
+}
+
+.potions{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 5;
+  grid-column-start: 3;
+  grid-row-end: 4;
+  grid-row-start: 4;
+}
+
+.controls{
+  background-color: rgba(0, 0, 0, 0.5);
+  grid-column-end: 3;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-row-start: 4;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 33% 34% 33%;
+}
+
+.movesquerra{
+  display: flex;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.movdreta{
+  display: flex;
+  justify-content: center;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.movendavant{
+  display: flex;
+  justify-content: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+
+.movendarrere{
+  display: flex;
+  justify-content: center;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-end: 4;
+  grid-row-start: 3;
+}
+
+.scape{
+  height: 70%;
+  width: 70%;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-end: 4;
+  grid-row-start: 1;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#782502;
+  text-align:center;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+}
+
+.action{
+  height: 70%;
+  width: 70%;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 4;
+  grid-row-start: 1;
+  padding: 0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#782502;
+  text-align:center;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+}
+
+.scape:hover{
+ background-color:#4095c6;
+}
+.action:hover{
+ background-color:#4095c6;
 }
